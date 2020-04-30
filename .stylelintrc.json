@@ -4,10 +4,11 @@
     "at-rule-no-unknown": [ true, {
       "ignoreAtRules": [
         "extends",
-        "import"
+        "import",
+        "tailwind"
       ]
     }],
     "block-no-empty": null,
-    "unit-whitelist": ["em", "rem", "s", "%"]
+    "unit-whitelist": ["em", "rem", "s", "%", "vh", "vw", "px"]
   }
 }

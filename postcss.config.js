@@ -1,4 +1,5 @@
 const stylelint = require('stylelint');
+const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 const postcssImport = require('postcss-import');
 const postcssPresetEnv = require('postcss-preset-env');
@@ -14,6 +15,7 @@ module.exports = {
     postcssPresetEnv({
       stage: 0,
     }),
+    tailwindcss,
     autoprefixer,
     cssMqpacker,
   ],
